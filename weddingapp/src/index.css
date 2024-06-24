@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headingfont{
+    font-family: "Playfair Display", serif;
+}
+.explore i{
+    rotate: -35deg;
+    font-size: 18px;
+}
+.bgblur{
+    background-color: #050505b7;
+    backdrop-filter:  blur(4px);
+}
+.pfont{
+    font-family: "Edu NSW ACT Foundation", cursive;
+}
+.gloweff{
+    box-shadow: 0 0 800px 0 #12ade0;
+}
+.bxshadow{
+    box-shadow: 0 0 10px #58c9ee;
+}
+.scroller::-webkit-scrollbar{
+    display: none;
+}
+.as a i{
+ font-size: 2rem;
+ padding: 2px;
+}
+.as a:first-child i{
+    color: #0044ff;
+    background-color: white;
+    border-radius: 50%;
+   }
+   .as a:nth-child(2) i{
+    color: #0084ff;
+    background-color: white;
+    border-radius: 50%;
+   }
+   .as a:nth-child(3) i{
+    color: #0044ff;
+    background-color: white;
+    border-radius: 50%;
+   }
+   .as a:nth-child(4) i{
+    color: #ff3c00;
+    background-color: white;
+    border-radius: 50%;
+   }
+   /* Add this CSS to your stylesheet or component */
+.nav-a {
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .nav-a::before,
+  .nav-a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 2px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-a::before {
+    transform-origin: right;
+    transform: scaleX(0);
+  }
+  
+  .nav-a::after {
+    transform-origin: left;
+    transform: scaleX(0);
+  }
+  
+  .nav-a:hover::before,
+  .nav-a:hover::after {
+    transform: scaleX(1);
+    background-color: #ffffff; /* Change this to match your desired underline color */
+  }
+  .loginbg{
+  }
+  .glass{
+    backdrop-filter: blur(20px);
+    background-color: #000000e1;
+  }
+  .colorbg{
+    background: rgb(4,1,50);
+background: linear-gradient(rgb(1, 0, 10) 0%, rgb(5, 9, 70) 100%);
+font-family: 'Poppins',sans-serif;
+  }
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.paymentform input{
+  height: 35px;
+  border-radius: 12px;
+  width: 100%;
+  background-color: white;
+  color: black ;
+  padding: 3px 20px;
+  font-weight: 500;
+  border: 1px solid #ffffff79;
+}
+.paymentform label {
+  padding-left: 10px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.none{
+  display: none;
+}
+.yesy{display: flex
+  
+  ;
+
+flex-direction: column;}
+.adminform input{
+color: #ffffff;
+background-color: #080e0e;
+box-shadow: 0 0 2px 2px #f5f5f5fa;
+padding: 4px 28px;
+font-weight: 500;
+border-radius: 12px;
+outline: none;
+}
+.adminform label{
+  font-size: 18px;
+  font-weight: 600;
+  margin:5px 0;
+  color: #0ce08f;
+}
